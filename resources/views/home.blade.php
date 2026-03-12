@@ -234,7 +234,7 @@ Home
             <!-- Dashboard panel -->
             <div class="col-12 col-lg-6 d-flex">
                 <div class="app-panel">
-                    <img class="img-rounded img" width="400px" style="border-radius: 10px;" src="{{ asset('assets/images/model-12.png') }}" alt="BIT HRMS Dashboard">
+                    <img class="app-image" style="border-radius: 10px;" src="{{ asset('assets/images/model-13.png') }}" alt="BIT HRMS Dashboard">
                 </div>
             </div>
 
