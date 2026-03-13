@@ -5,7 +5,7 @@
             <!-- App screens -->
             <div class="col-12 col-lg-5">
                 <div class="d-flex gap-3 justify-content-center align-items-end">
-                    <img src="{{ asset('assets/images/hero-7.png') }}" alt="App Preview 1" class="" style="animation-delay:.4s;border-radius:16px;box-shadow:0 20px 40px rgba(0,0,0,0.15);height:100%;width:100%">
+                    <img src="{{ asset('assets/images/hero-8.png') }}" alt="App Preview 1" class="" style="animation-delay:.4s;border-radius:16px;box-shadow:0 20px 40px rgba(0,0,0,0.15);height:100%;width:100%">
                 </div>
             </div>
 
@@ -36,13 +36,13 @@
                             <p style="color:var(--gray-500);font-size:14px;margin:0;line-height:1.6">Ajukan cuti, lembur, dan izin langsung dari hp. Atasan approve dalam satu klik dari mana saja.</p>
                         </div>
                     </div>
-                    <div class="d-flex gap-3 align-items-start">
+                    <!-- <div class="d-flex gap-3 align-items-start">
                         <div class="prev-pt-ic">📢</div>
                         <div>
                             <h6 style="font-weight:700;margin-bottom:4px">Pengumuman &amp; Informasi Perusahaan</h6>
                             <p style="color:var(--gray-500);font-size:14px;margin:0;line-height:1.6">Sampaikan pengumuman penting, informasi kebijakan, atau berita perusahaan langsung ke seluruh karyawan secara instan melalui sistem.</p>
                         </div>
-                    </div>
+                    </div> -->
                     <div class="d-flex gap-3 align-items-start">
                         <div class="prev-pt-ic">💰</div>
                         <div>

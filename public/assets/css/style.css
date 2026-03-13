@@ -949,7 +949,7 @@ body {
     height: 50px;
     border-radius: 14px;
     flex-shrink: 0;
-    background: linear-gradient(135deg, var(--bit-blue), var(--bit-teal));
+    /* background: linear-gradient(135deg, var(--bit-blue), var(--bit-teal)); */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1236,14 +1236,14 @@ footer {
 
 .app-image {
     border-radius: 10px;
-    width: 500px;
+    width: 580px;
     max-width: 100%;
 }
 
 /* mobile */
 @media (max-width: 768px) {
     .app-image {
-        width: 400px;
+        width: 600px !important;
     }
 }
 /*  */

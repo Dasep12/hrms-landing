@@ -48,7 +48,7 @@ Home
             <!-- RIGHT COLUMN -->
             <div class="col-lg-6 mt-5 mt-lg-0">
 
-                <img src="{{ asset('assets/images/model-5.png') }}"
+                <img src="{{ asset('assets/images/model-15.png') }}"
                     alt="Software Payroll BIT"
                     class="img-fluid hero-image">
             </div>

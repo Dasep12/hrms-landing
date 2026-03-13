@@ -2,17 +2,18 @@
 <section class="bg-gray-50 py-5" style="padding-top:80px!important;">
 
     <div class="container-xl px-3 px-lg-4">
+        <div class="text-center mb-5">
+            <span class="section-tag">Fitur Utama</span>
 
-        <span class="section-tag">Fitur Utama</span>
+            <h2 class="section-title mt-2 mb-2" style="font-size:clamp(26px,3.5vw,40px)">
+                Semua Kebutuhan <span class="ac">Manajemen HR</span> dalam Satu Platform
+            </h2>
 
-        <h2 class="section-title mt-2 mb-2" style="font-size:clamp(26px,3.5vw,40px)">
-            Semua Kebutuhan <span class="ac">Manajemen HR</span> dalam Satu Platform
-        </h2>
-
-        <p style="color:var(--gray-500);font-size:16px;max-width:600px;margin-bottom:48px">
-            Dari pengelolaan data karyawan hingga administrasi HR sehari-hari —
-            semua terintegrasi untuk membantu tim HR bekerja lebih cepat dan efisien.
-        </p>
+            <p style="color:var(--gray-500);font-size:16px;max-width:640px;margin:0 auto">
+                Dari pengelolaan data karyawan hingga administrasi HR sehari-hari
+                semua terintegrasi untuk membantu tim HR bekerja lebih cepat dan efisien.
+            </p>
+        </div>
 
         <div class="row g-4 align-items-start">
 
@@ -63,8 +64,8 @@
 
             <!-- Dashboard panel -->
             <div class="col-12 col-lg-6 d-flex">
-                <div class="app-panel">
-                    <img class="app-image" style="border-radius: 10px;" src="{{ asset('assets/images/model-13.png') }}" alt="BIT HRMS Dashboard">
+                <div class="app-panel1">
+                    <img class="app-image" style="border-radius: 10px;" src="{{ asset('assets/images/model-14.png') }}" alt="BIT HRMS Dashboard">
                 </div>
             </div>
 
