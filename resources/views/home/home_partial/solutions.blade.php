@@ -65,7 +65,7 @@
             <!-- Dashboard panel -->
             <div class="col-12 col-lg-6 d-flex">
                 <div class="app-panel1">
-                    <img class="app-image" style="border-radius: 10px;" src="{{ asset('assets/images/model-14.png') }}" alt="BIT HRMS Dashboard">
+                    <img class="app-image" style="border-radius: 10px;" src="{{ asset('assets/images/model/model-14.png') }}" alt="BIT HRMS Dashboard">
                 </div>
             </div>
 

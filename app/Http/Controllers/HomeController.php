@@ -9,6 +9,48 @@ class HomeController extends Controller
     //
     public function index()
     {
-        return view('home');
+        return view('home.home');
+    }
+
+    public function database_employee()
+    {
+        return view('home.database_employee');
+    }
+
+    public function struktur_employee()
+    {
+        return view('home.struktur_employee');
+    }
+
+    public function gradingupah_employee()
+    {
+        return view('home.gradingupah_employee');
+    }
+
+    public function dashboard_employee()
+    {
+        return view('home.dashboard_employee');
+    }
+
+    public function apps_employee()
+    {
+        return view('home.apps_employee');
+    }
+    public function schedule_employee()
+    {
+        return view('home.schedule_employee');
+    }
+    public function permit_employee()
+    {
+        return view('home.permit_employee');
+    }
+
+    public function payroll_employee()
+    {
+        return view('home.payroll_employee');
+    }
+    public function pph_employee()
+    {
+        return view('home.pph_employee');
     }
 }

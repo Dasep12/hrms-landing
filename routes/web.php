@@ -18,3 +18,12 @@ use Illuminate\Support\Facades\Route;
 // });
 
 Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/database-employee', [App\Http\Controllers\HomeController::class, 'database_employee'])->name('database.employee');
+Route::get('/struktur-employee', [App\Http\Controllers\HomeController::class, 'struktur_employee'])->name('struktur.employee');
+Route::get('/grading-upah', [App\Http\Controllers\HomeController::class, 'gradingupah_employee'])->name('gradingupah.employee');
+Route::get('/dashboard-analytic', [App\Http\Controllers\HomeController::class, 'dashboard_employee'])->name('dashboard.employee');
+Route::get('/apps-employee', [App\Http\Controllers\HomeController::class, 'apps_employee'])->name('apps.employee');
+Route::get('/schedule-employee', [App\Http\Controllers\HomeController::class, 'schedule_employee'])->name('schedule.employee');
+Route::get('/permit-employee', [App\Http\Controllers\HomeController::class, 'permit_employee'])->name('permit.employee');
+Route::get('/payroll-employee', [App\Http\Controllers\HomeController::class, 'payroll_employee'])->name('payroll.employee');
+Route::get('/pph-employee', [App\Http\Controllers\HomeController::class, 'pph_employee'])->name('pph.employee');

@@ -32,7 +32,7 @@
         <div class="container-xl px-3 px-lg-4">
 
             <!-- Brand + Lang -->
-            <a class="navbar-brand me-3 bit-logo" href="#">
+            <a class="navbar-brand me-3 bit-logo" href="{{ route('home') }}">
                 <img src="{{ asset('assets/images/logo-bit.png') }}" alt="Logo Bit HRMS" class="logo-light" height="70" width="70">
             </a>
 
@@ -77,20 +77,20 @@
                             <div class="row g-4">
                                 <div class="col-12 col-lg-4 mega-col">
                                     <div class="mega-col-title">Manajemen Karyawan</div>
-                                    <a class="dropdown-item" href="#">Database Karyawan</a>
-                                    <a class="dropdown-item" href="#">Persetujuan Multilevel &amp; Struktur Organisasi</a>
-                                    <a class="dropdown-item" href="#">Struktur Grading &amp; Skala Upah</a>
+                                    <a class="dropdown-item" href="{{ route('database.employee') }}">Database Karyawan</a>
+                                    <a class="dropdown-item" href="{{ route('struktur.employee') }}">Persetujuan Multilevel &amp; Struktur Organisasi</a>
+                                    <a class="dropdown-item" href="{{ route('gradingupah.employee') }}">Struktur Grading &amp; Skala Upah</a>
                                     <!-- <a class="dropdown-item" href="#">Dasbor Rekrutmen &amp; Jobsite</a> -->
                                     <!-- <div class="mega-col-title mt-4">Analisis Kinerja Karyawan</div> -->
                                     <!-- <a class="dropdown-item" href="#">Evaluasi Kinerja Karyawan</a> -->
-                                    <a class="dropdown-item" href="#">Dasbor HR Analytics</a>
-                                    <a class="dropdown-item" href="#">Aplikasi Mobile Karyawan</a>
+                                    <a class="dropdown-item" href="{{ route('dashboard.employee') }}">Dasbor HR Analytics</a>
+                                    <a class="dropdown-item" href="{{ route('apps.employee') }}">Aplikasi Mobile Karyawan</a>
                                 </div>
                                 <div class="col-12 col-lg-4 mega-col">
                                     <div class="mega-col-title">Manajemen Operasional HR</div>
-                                    <a class="dropdown-item" href="#">Kehadiran, Shift &amp; Pola Kerja</a>
-                                    <a class="dropdown-item" href="#">Cuti, Absensi &amp; Sakit</a>
-                                    <a class="dropdown-item" href="#">Aplikasi Mobile Admin</a>
+                                    <a class="dropdown-item" href="{{ route('schedule.employee') }}">Kehadiran, Shift &amp; Pola Kerja</a>
+                                    <a class="dropdown-item" href="{{ route('permit.employee') }}">Cuti, Absensi &amp; Sakit</a>
+                                    <!-- <a class="dropdown-item" href="#">Aplikasi Mobile Admin</a> -->
                                     <!-- <a class="dropdown-item" href="#">Manajemen Aset Kantor</a>
                                     <a class="dropdown-item" href="#">Integrasi dengan Platform Lain</a> -->
                                     <!-- <div class="mega-col-title mt-4">Solusi Lainnya</div>
@@ -99,8 +99,8 @@
                                 </div>
                                 <div class="col-12 col-lg-4 mega-col">
                                     <div class="mega-col-title">Manajemen Kompensasi &amp; Tunjangan</div>
-                                    <a class="dropdown-item" href="#">Manajemen Payroll &amp; Pembayaran Gaji</a>
-                                    <a class="dropdown-item" href="#">PPh 21 / 26 Karyawan</a>
+                                    <a class="dropdown-item" href="{{ route('payroll.employee') }}">Manajemen Payroll &amp; Pembayaran Gaji</a>
+                                    <a class="dropdown-item" href="{{ route('pph.employee') }}">PPh 21 / 26 Karyawan</a>
                                     <a class="dropdown-item" href="#">Jaminan Sosial Karyawan (BPJS)</a>
                                     <a class="dropdown-item" href="#">Benefit Karyawan</a>
                                 </div>

@@ -5,7 +5,7 @@
             <!-- App screens -->
             <div class="col-12 col-lg-5">
                 <div class="d-flex gap-3 justify-content-center align-items-end">
-                    <img src="{{ asset('assets/images/hero-8.png') }}" alt="App Preview 1" class="" style="animation-delay:.4s;border-radius:16px;box-shadow:0 20px 40px rgba(0,0,0,0.15);height:100%;width:100%">
+                    <img src="{{ asset('assets/images/hero/hero-8.png') }}" alt="App Preview 1" class="" style="animation-delay:.4s;border-radius:16px;box-shadow:0 20px 40px rgba(0,0,0,0.15);height:100%;width:100%">
                 </div>
             </div>
 

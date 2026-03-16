@@ -1,41 +1,34 @@
 @extends('layouts.main')
 
 @section('title')
-Home
 @endsection
-
 @section('content')
-<!-- ════════════════════════════════
-     HERO — Gadjian-style centered
-    ════════════════════════════════ -->
 <section class="hero-section">
     <div class="container-xl px-3 px-lg-5 py-5 position-relative" style="z-index:1">
 
         <div class="row align-items-center">
-
             <!-- LEFT COLUMN -->
             <div class="col-lg-6 text-lg-start text-center">
-
                 <!-- Badge -->
                 <div class="mb-3">
                     <div class="hero-badge d-inline-flex">
                         <span class="badge-dot"></span>
-                        Software HR terbaik di Indonesia
+                        Struktur Organisasi
                     </div>
                 </div>
 
                 <!-- Headline -->
                 <h5 class="hero-title mb-3">
-                    Payroll Software untuk Mengelola
-                    Keuangan &amp; Karyawan <span class="hl">Perusahaan</span>
+                    Kelola HR <span class="hl">Multi Company</span> dalam Satu Platform
                 </h5>
 
                 <!-- Sub -->
                 <p class="hero-sub mb-4">
-                    Platform Indonesia terbaik untuk menghitung gaji, cuti, lembur,
-                    dan Bonus & THR secara otomatis sesuai dengan UU Ketenagakerjaan.
-                    Sistem berbasis online, bisa diakses di mana saja.
+                    Kelola data karyawan, struktur organisasi, dan administrasi HR dari berbagai perusahaan
+                    atau cabang dalam satu sistem terintegrasi. Dengan BIT , manajemen group perusahaan
+                    menjadi lebih terpusat, efisien, dan mudah dipantau melalui satu dashboard.
                 </p>
+
 
                 <!-- CTA -->
                 <div class="d-flex gap-3 flex-wrap justify-content-lg-start justify-content-center">
@@ -48,7 +41,7 @@ Home
             <!-- RIGHT COLUMN -->
             <div class="col-lg-6 mt-5 mt-lg-0">
 
-                <img src="{{ asset('assets/images/model-15.png') }}"
+                <img src="{{ asset('assets/images/model/model-17.png') }}"
                     alt="Software Payroll BIT"
                     class="img-fluid hero-image">
             </div>
@@ -60,28 +53,12 @@ Home
 
 </section>
 
+<!-- ════ SECTIION 2 ════ -->
+@include('home.pph_employee_partial.pph_section_2')
 
-<!-- ════ TRUST BAR ════ -->
-@include('home_partial.trusted_bar')
+<!-- ════ SECTIION 3 ════ -->
+@include('home.pph_employee_partial.pph_section_3')
 
+@include('./home.home_partial.cta_banner')
 
-<!-- ════ FEATURES ════ -->
-@include('home_partial.features')
-
-<!-- ════ SOLUTIONS ════ -->
-@include('home_partial.solutions')
-
-
-<!-- ════ APP PREVIEW ════ -->
-@include('home_partial.app_preview')
-
-
-<!-- ════ TESTIMONIALS ════ -->
-@include('home_partial.testimonial')
-
-<!-- FAQ -->
-@include('home_partial.faq')
-
-<!-- ════ CTA BANNER ════ -->
-@include('home_partial.cta_banner')
 @endsection
