@@ -5,46 +5,35 @@
             <!-- App screens -->
             <div class="col-12 col-lg-5">
                 <div class="d-flex gap-3 justify-content-center align-items-end">
-                    <img src="{{ asset('assets/images/hero/hero-11.png') }}" alt="App Preview 1" class="" style="animation-delay:.4s;border-radius:16px;height:100%;width:100%">
+                    <img src="{{ asset('assets/images/hero/hero-14.png') }}" alt="App Preview 1" class="" style="animation-delay:.4s;border-radius:16px;height:100%;width:100%">
                 </div>
             </div>
 
             <!-- Feature points -->
             <div class="col-12 col-lg-7">
-                <span class="section-tag mb-3">Struktur Organisasi Multi Company</span>
-                <!-- <h2 class="section-title mt-2 mb-2" style="font-size:clamp(26px,3.5vw,40px)">Pengelolaan dan akses data karyawan <span class="ac">lebih cepat, terstruktur, dan terkontrol</span> dalam satu sistem </h2> -->
-                <!-- <p class="mb-4" style="color:var(--gray-500);font-size:16px;max-width:520px">Pengelolaan dan akses data karyawan lebih cepat, terstruktur, dan terkontrol dalam satu sistem.</p> -->
+                <span class="section-tag mb-3">Mobile Application BIT HRMS</span>
+
                 <div class="d-flex flex-column gap-4">
 
                     <div class="d-flex gap-3 align-items-start">
-                        <div class="prev-pt-ic">🏢</div>
+                        <div class="prev-pt-ic">📍</div>
                         <div>
-                            <h6 style="font-weight:700;margin-bottom:4px">Manajemen Multi Company</h6>
+                            <h6 style="font-weight:700;margin-bottom:4px">Absensi dari Smartphone</h6>
                             <p style="color:var(--gray-500);font-size:14px;margin:0;line-height:1.6">
-                                Kelola beberapa perusahaan, cabang, atau anak perusahaan dalam satu sistem terintegrasi
-                                tanpa perlu berpindah platform.
+                                Lakukan absensi masuk dan pulang kerja langsung dari aplikasi mobile
+                                dengan dukungan GPS dan selfie verification untuk memastikan kehadiran
+                                karyawan tercatat secara akurat.
                             </p>
                         </div>
                     </div>
 
                     <div class="d-flex gap-3 align-items-start">
-                        <div class="prev-pt-ic">🌐</div>
+                        <div class="prev-pt-ic">📝</div>
                         <div>
-                            <h6 style="font-weight:700;margin-bottom:4px">Dashboard Terpusat</h6>
+                            <h6 style="font-weight:700;margin-bottom:4px">Pengajuan Cuti & Izin</h6>
                             <p style="color:var(--gray-500);font-size:14px;margin:0;line-height:1.6">
-                                Pantau seluruh aktivitas HR dari berbagai perusahaan dalam satu dashboard
-                                sehingga manajemen dapat memonitor operasional dengan lebih mudah.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="d-flex gap-3 align-items-start">
-                        <div class="prev-pt-ic">🧩</div>
-                        <div>
-                            <h6 style="font-weight:700;margin-bottom:4px">Struktur Organisasi Fleksibel</h6>
-                            <p style="color:var(--gray-500);font-size:14px;margin:0;line-height:1.6">
-                                Atur struktur organisasi untuk setiap perusahaan atau cabang secara fleksibel
-                                sehingga hubungan antar divisi dan tim dapat terlihat lebih jelas.
+                                Karyawan dapat mengajukan cuti, izin, atau lembur langsung dari aplikasi.
+                                Semua permintaan akan langsung masuk ke sistem untuk diproses oleh atasan.
                             </p>
                         </div>
                     </div>
@@ -52,10 +41,21 @@
                     <div class="d-flex gap-3 align-items-start">
                         <div class="prev-pt-ic">✔️</div>
                         <div>
-                            <h6 style="font-weight:700;margin-bottom:4px">Approval Berjenjang</h6>
+                            <h6 style="font-weight:700;margin-bottom:4px">Approval Lebih Cepat</h6>
                             <p style="color:var(--gray-500);font-size:14px;margin:0;line-height:1.6">
-                                Tentukan alur persetujuan yang berbeda untuk setiap perusahaan atau cabang
-                                agar proses administrasi HR tetap terkontrol dan transparan.
+                                Manajer atau HR dapat memberikan persetujuan langsung melalui aplikasi mobile
+                                tanpa harus membuka sistem melalui desktop.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex gap-3 align-items-start">
+                        <div class="prev-pt-ic">📄</div>
+                        <div>
+                            <h6 style="font-weight:700;margin-bottom:4px">Akses Informasi HR</h6>
+                            <p style="color:var(--gray-500);font-size:14px;margin:0;line-height:1.6">
+                                Karyawan dapat melihat slip gaji, riwayat absensi, dan informasi HR lainnya
+                                secara langsung dari aplikasi mobile kapan saja.
                             </p>
                         </div>
                     </div>

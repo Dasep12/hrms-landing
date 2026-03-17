@@ -13,20 +13,22 @@
                 <div class="mb-3">
                     <div class="hero-badge d-inline-flex">
                         <span class="badge-dot"></span>
-                        Struktur Organisasi
+                        Mobile Application
                     </div>
                 </div>
 
                 <!-- Headline -->
                 <h5 class="hero-title mb-3">
-                    Kelola HR <span class="hl">Multi Company</span> dalam Satu Platform
+                    Kelola HR Lebih Mudah dengan <span class="hl">Mobile Application BIT</span>
                 </h5>
 
                 <!-- Sub -->
                 <p class="hero-sub mb-4">
-                    Kelola data karyawan, struktur organisasi, dan administrasi HR dari berbagai perusahaan
-                    atau cabang dalam satu sistem terintegrasi. Dengan BIT , manajemen group perusahaan
-                    menjadi lebih terpusat, efisien, dan mudah dipantau melalui satu dashboard.
+                    Akses berbagai fitur HR kapan saja dan di mana saja melalui aplikasi mobile BIT .
+                    Mulai dari absensi, pengajuan cuti, approval, hingga melihat slip gaji dapat dilakukan
+                    langsung dari smartphone. Dengan sistem yang terintegrasi dengan dashboard HR perusahaan,
+                    karyawan dan manajemen dapat tetap terhubung, mempercepat proses administrasi, dan
+                    meningkatkan efisiensi operasional HR secara real-time.
                 </p>
 
 
@@ -41,7 +43,7 @@
             <!-- RIGHT COLUMN -->
             <div class="col-lg-6 mt-5 mt-lg-0">
 
-                <img src="{{ asset('assets/images/model/model-17.png') }}"
+                <img src="{{ asset('assets/images/model/model-20.png') }}"
                     alt="Software Payroll BIT"
                     class="img-fluid hero-image">
             </div>

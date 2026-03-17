@@ -5,50 +5,47 @@
 
         <!-- Header -->
         <div class="text-center mb-5">
-            <!-- <span class="section-tag">Kenapa Memilih BIT HRMS ? </span> -->
 
             <h2 class="section-title mt-2" style="font-size:clamp(26px,3vw,30px)">
-                Atur struktur organisasi dan manajemen HR <br>
-                untuk <span class="ac">group perusahaan</span> secara terpusat dalam satu platform.
+                Akses Sistem HR Perusahaan <br>
+                melalui <span class="ac">Mobile Application</span> kapan saja dan di mana saja
             </h2>
 
-            <!-- <p style="color:var(--gray-500);font-size:16px;max-width:640px;margin:0 auto">
-                Satu platform terintegrasi untuk mengelola data karyawan, absensi, payroll,
-                dan laporan HR perusahaan secara otomatis, aman, dan real-time.
-            </p> -->
         </div>
 
         <!-- Features -->
         <div class="row g-4">
             <div class="col-12 col-md-4">
                 <div class="feat-card">
-                    <div class="feat-icon mb-3" style="background:var(--bit-blue-pale)">🏢</div>
-                    <h5 class="mb-2">Manajemen Multi Company</h5>
+                    <div class="feat-icon mb-3" style="background:var(--bit-blue-pale)">📍</div>
+                    <h5 class="mb-2">Absensi Mobile</h5>
                     <p>
-                        Kelola beberapa perusahaan, anak perusahaan, atau cabang dalam satu sistem terintegrasi
-                        tanpa perlu berpindah platform. Semua data HR dapat dipantau secara terpusat.
+                        Karyawan dapat melakukan absensi langsung dari smartphone dengan dukungan
+                        GPS location dan selfie verification sehingga proses kehadiran lebih praktis
+                        dan tetap terkontrol.
                     </p>
                 </div>
             </div>
 
             <div class="col-12 col-md-4">
                 <div class="feat-card">
-                    <div class="feat-icon mb-3" style="background:#E8F5E9">🧩</div>
-                    <h5 class="mb-2">Struktur Organisasi Berjenjang</h5>
+                    <div class="feat-icon mb-3" style="background:#E8F5E9">📝</div>
+                    <h5 class="mb-2">Pengajuan & Approval</h5>
                     <p>
-                        Bangun struktur organisasi untuk setiap perusahaan atau cabang dengan sistem
-                        leveling yang fleksibel sehingga alur koordinasi dan tanggung jawab tim lebih jelas.
+                        Ajukan cuti, izin, atau lembur langsung dari aplikasi mobile.
+                        Atasan dapat melakukan proses approval dengan cepat sehingga
+                        alur administrasi HR menjadi lebih efisien.
                     </p>
                 </div>
             </div>
 
             <div class="col-12 col-md-4">
                 <div class="feat-card">
-                    <div class="feat-icon mb-3" style="background:#E0F7FA">🔐</div>
-                    <h5 class="mb-2">Kontrol Akses Antar Perusahaan</h5>
+                    <div class="feat-icon mb-3" style="background:#E0F7FA">📄</div>
+                    <h5 class="mb-2">Akses Data HR</h5>
                     <p>
-                        Atur hak akses pengguna berdasarkan perusahaan, cabang, atau divisi sehingga
-                        setiap tim hanya dapat mengakses data yang sesuai dengan kewenangannya.
+                        Lihat slip gaji, riwayat absensi, data karyawan, dan informasi HR lainnya
+                        langsung dari aplikasi mobile tanpa perlu membuka sistem melalui desktop.
                     </p>
                 </div>
             </div>

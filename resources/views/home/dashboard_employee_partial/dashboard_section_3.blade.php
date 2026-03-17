@@ -5,57 +5,55 @@
             <!-- App screens -->
             <div class="col-12 col-lg-5">
                 <div class="d-flex gap-3 justify-content-center align-items-end">
-                    <img src="{{ asset('assets/images/hero/hero-11.png') }}" alt="App Preview 1" class="" style="animation-delay:.4s;border-radius:16px;height:100%;width:100%">
+                    <img src="{{ asset('assets/images/hero/hero-13.png') }}" alt="App Preview 1" class="" style="animation-delay:.4s;border-radius:16px;height:100%;width:100%">
                 </div>
             </div>
 
             <!-- Feature points -->
             <div class="col-12 col-lg-7">
-                <span class="section-tag mb-3">Struktur Organisasi Multi Company</span>
-                <!-- <h2 class="section-title mt-2 mb-2" style="font-size:clamp(26px,3.5vw,40px)">Pengelolaan dan akses data karyawan <span class="ac">lebih cepat, terstruktur, dan terkontrol</span> dalam satu sistem </h2> -->
-                <!-- <p class="mb-4" style="color:var(--gray-500);font-size:16px;max-width:520px">Pengelolaan dan akses data karyawan lebih cepat, terstruktur, dan terkontrol dalam satu sistem.</p> -->
+                <span class="section-tag mb-3">Dashboard HR Analytics Multi Company</span>
                 <div class="d-flex flex-column gap-4">
 
                     <div class="d-flex gap-3 align-items-start">
-                        <div class="prev-pt-ic">🏢</div>
+                        <div class="prev-pt-ic">📊</div>
                         <div>
-                            <h6 style="font-weight:700;margin-bottom:4px">Manajemen Multi Company</h6>
+                            <h6 style="font-weight:700;margin-bottom:4px">Analitik Multi Company</h6>
                             <p style="color:var(--gray-500);font-size:14px;margin:0;line-height:1.6">
-                                Kelola beberapa perusahaan, cabang, atau anak perusahaan dalam satu sistem terintegrasi
-                                tanpa perlu berpindah platform.
+                                Pantau kinerja, absensi, dan produktivitas karyawan dari berbagai perusahaan atau cabang
+                                secara real-time dalam satu dashboard terintegrasi.
                             </p>
                         </div>
                     </div>
 
                     <div class="d-flex gap-3 align-items-start">
-                        <div class="prev-pt-ic">🌐</div>
+                        <div class="prev-pt-ic">📈</div>
                         <div>
-                            <h6 style="font-weight:700;margin-bottom:4px">Dashboard Terpusat</h6>
+                            <h6 style="font-weight:700;margin-bottom:4px">Insight Struktur Organisasi</h6>
                             <p style="color:var(--gray-500);font-size:14px;margin:0;line-height:1.6">
-                                Pantau seluruh aktivitas HR dari berbagai perusahaan dalam satu dashboard
-                                sehingga manajemen dapat memonitor operasional dengan lebih mudah.
+                                Analisis efektivitas struktur organisasi, identifikasi bottleneck, dan optimalkan alur koordinasi
+                                antar divisi untuk meningkatkan produktivitas tim.
                             </p>
                         </div>
                     </div>
 
                     <div class="d-flex gap-3 align-items-start">
-                        <div class="prev-pt-ic">🧩</div>
+                        <div class="prev-pt-ic">🔍</div>
                         <div>
-                            <h6 style="font-weight:700;margin-bottom:4px">Struktur Organisasi Fleksibel</h6>
+                            <h6 style="font-weight:700;margin-bottom:4px">Audit & Kontrol Data HR</h6>
                             <p style="color:var(--gray-500);font-size:14px;margin:0;line-height:1.6">
-                                Atur struktur organisasi untuk setiap perusahaan atau cabang secara fleksibel
-                                sehingga hubungan antar divisi dan tim dapat terlihat lebih jelas.
+                                Pantau hak akses pengguna, aktivitas HR, dan perubahan data secara transparan
+                                untuk menjaga keamanan dan integritas informasi karyawan.
                             </p>
                         </div>
                     </div>
 
                     <div class="d-flex gap-3 align-items-start">
-                        <div class="prev-pt-ic">✔️</div>
+                        <div class="prev-pt-ic">💡</div>
                         <div>
-                            <h6 style="font-weight:700;margin-bottom:4px">Approval Berjenjang</h6>
+                            <h6 style="font-weight:700;margin-bottom:4px">Insight Persetujuan & Workflow</h6>
                             <p style="color:var(--gray-500);font-size:14px;margin:0;line-height:1.6">
-                                Tentukan alur persetujuan yang berbeda untuk setiap perusahaan atau cabang
-                                agar proses administrasi HR tetap terkontrol dan transparan.
+                                Analisis alur persetujuan dan workflow HR untuk setiap perusahaan atau cabang,
+                                sehingga keputusan operasional dapat lebih cepat dan berbasis data.
                             </p>
                         </div>
                     </div>

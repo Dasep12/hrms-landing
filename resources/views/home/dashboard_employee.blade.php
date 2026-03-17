@@ -20,15 +20,11 @@
                 </div>
 
                 <!-- Headline -->
-                <h5 class="hero-title mb-3">
-                    Kelola HR <span class="hl">Multi Company</span> dalam Satu Platform
-                </h5>
+                <h5 class="hero-title mb-3"> Dashboard <span class="hl">HR Analytics</span> untuk Multi Company </h5>
 
                 <!-- Sub -->
                 <p class="hero-sub mb-4">
-                    Kelola data karyawan, struktur organisasi, dan administrasi HR dari berbagai perusahaan
-                    atau cabang dalam satu sistem terintegrasi. Dengan BIT , manajemen group perusahaan
-                    menjadi lebih terpusat, efisien, dan mudah dipantau melalui satu dashboard.
+                    Pantau kinerja, absensi, dan produktivitas karyawan dari berbagai perusahaan atau cabang secara real-time. Dengan dashboard HR Analytics BIT, Anda bisa menganalisis data, mengidentifikasi tren, dan mengambil keputusan strategis lebih cepat, semua dari satu platform terintegrasi.
                 </p>
 
 
@@ -43,7 +39,7 @@
             <!-- RIGHT COLUMN -->
             <div class="col-lg-6 mt-5 mt-lg-0">
 
-                <img src="{{ asset('assets/images/model/model-17.png') }}"
+                <img src="{{ asset('assets/images/model/model-19.png') }}"
                     alt="Software Payroll BIT"
                     class="img-fluid hero-image">
             </div>

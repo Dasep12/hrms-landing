@@ -27,3 +27,4 @@ Route::get('/schedule-employee', [App\Http\Controllers\HomeController::class, 's
 Route::get('/permit-employee', [App\Http\Controllers\HomeController::class, 'permit_employee'])->name('permit.employee');
 Route::get('/payroll-employee', [App\Http\Controllers\HomeController::class, 'payroll_employee'])->name('payroll.employee');
 Route::get('/pph-employee', [App\Http\Controllers\HomeController::class, 'pph_employee'])->name('pph.employee');
+Route::get('/benefit-employee', [App\Http\Controllers\HomeController::class, 'benefit_employee'])->name('benefit.employee');

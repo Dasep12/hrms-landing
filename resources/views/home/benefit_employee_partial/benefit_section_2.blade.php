@@ -8,8 +8,8 @@
             <!-- <span class="section-tag">Kenapa Memilih BIT HRMS ? </span> -->
 
             <h2 class="section-title mt-2" style="font-size:clamp(26px,3vw,30px)">
-                Pantau dan Analisis HR
-                untuk <span class="ac">group perusahaan</span> <br>secara real-time melalui satu dashboard.
+                Atur struktur organisasi dan manajemen HR <br>
+                untuk <span class="ac">group perusahaan</span> secara terpusat dalam satu platform.
             </h2>
 
             <!-- <p style="color:var(--gray-500);font-size:16px;max-width:640px;margin:0 auto">
@@ -22,33 +22,33 @@
         <div class="row g-4">
             <div class="col-12 col-md-4">
                 <div class="feat-card">
-                    <div class="feat-icon mb-3" style="background:var(--bit-blue-pale)">📊</div>
-                    <h5 class="mb-2">Analitik Multi Company</h5>
+                    <div class="feat-icon mb-3" style="background:var(--bit-blue-pale)">🏢</div>
+                    <h5 class="mb-2">Manajemen Multi Company</h5>
                     <p>
-                        Pantau kinerja, absensi, dan produktivitas karyawan dari berbagai perusahaan atau cabang
-                        dalam satu dashboard terintegrasi. Semua data HR tersedia dalam visualisasi yang mudah dipahami.
+                        Kelola beberapa perusahaan, anak perusahaan, atau cabang dalam satu sistem terintegrasi
+                        tanpa perlu berpindah platform. Semua data HR dapat dipantau secara terpusat.
                     </p>
                 </div>
             </div>
 
             <div class="col-12 col-md-4">
                 <div class="feat-card">
-                    <div class="feat-icon mb-3" style="background:#E8F5E9">📈</div>
-                    <h5 class="mb-2">Insight Struktur Organisasi</h5>
+                    <div class="feat-icon mb-3" style="background:#E8F5E9">🧩</div>
+                    <h5 class="mb-2">Struktur Organisasi Berjenjang</h5>
                     <p>
-                        Analisis efektivitas struktur organisasi untuk setiap perusahaan atau cabang.
-                        Identifikasi bottleneck, alur koordinasi, dan peluang peningkatan kinerja tim.
+                        Bangun struktur organisasi untuk setiap perusahaan atau cabang dengan sistem
+                        leveling yang fleksibel sehingga alur koordinasi dan tanggung jawab tim lebih jelas.
                     </p>
                 </div>
             </div>
 
             <div class="col-12 col-md-4">
                 <div class="feat-card">
-                    <div class="feat-icon mb-3" style="background:#E0F7FA">🔍</div>
-                    <h5 class="mb-2">Kontrol dan Audit Data HR</h5>
+                    <div class="feat-icon mb-3" style="background:#E0F7FA">🔐</div>
+                    <h5 class="mb-2">Kontrol Akses Antar Perusahaan</h5>
                     <p>
-                        Pantau aktivitas pengguna, hak akses, dan perubahan data HR untuk setiap perusahaan atau divisi.
-                        Dashboard analytics memastikan keamanan dan transparansi dalam pengelolaan HR.
+                        Atur hak akses pengguna berdasarkan perusahaan, cabang, atau divisi sehingga
+                        setiap tim hanya dapat mengakses data yang sesuai dengan kewenangannya.
                     </p>
                 </div>
             </div>

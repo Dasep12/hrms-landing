@@ -53,4 +53,8 @@ class HomeController extends Controller
     {
         return view('home.pph_employee');
     }
+    public function benefit_employee()
+    {
+        return view('home.benefit_employee');
+    }
 }

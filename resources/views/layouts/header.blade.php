@@ -79,7 +79,7 @@
                                     <div class="mega-col-title">Manajemen Karyawan</div>
                                     <a class="dropdown-item" href="{{ route('database.employee') }}">Database Karyawan</a>
                                     <a class="dropdown-item" href="{{ route('struktur.employee') }}">Persetujuan Multilevel &amp; Struktur Organisasi</a>
-                                    <a class="dropdown-item" href="{{ route('gradingupah.employee') }}">Struktur Grading &amp; Skala Upah</a>
+                                    <a class="dropdown-item" href="{{ route('gradingupah.employee') }}">Struktur Allowance</a>
                                     <!-- <a class="dropdown-item" href="#">Dasbor Rekrutmen &amp; Jobsite</a> -->
                                     <!-- <div class="mega-col-title mt-4">Analisis Kinerja Karyawan</div> -->
                                     <!-- <a class="dropdown-item" href="#">Evaluasi Kinerja Karyawan</a> -->
@@ -88,7 +88,7 @@
                                 </div>
                                 <div class="col-12 col-lg-4 mega-col">
                                     <div class="mega-col-title">Manajemen Operasional HR</div>
-                                    <a class="dropdown-item" href="{{ route('schedule.employee') }}">Kehadiran, Shift &amp; Pola Kerja</a>
+                                    <a class="dropdown-item" href="{{ route('schedule.employee') }}">Shift &amp; Pola Kerja</a>
                                     <a class="dropdown-item" href="{{ route('permit.employee') }}">Cuti, Absensi &amp; Sakit</a>
                                     <!-- <a class="dropdown-item" href="#">Aplikasi Mobile Admin</a> -->
                                     <!-- <a class="dropdown-item" href="#">Manajemen Aset Kantor</a>
@@ -101,8 +101,8 @@
                                     <div class="mega-col-title">Manajemen Kompensasi &amp; Tunjangan</div>
                                     <a class="dropdown-item" href="{{ route('payroll.employee') }}">Manajemen Payroll &amp; Pembayaran Gaji</a>
                                     <a class="dropdown-item" href="{{ route('pph.employee') }}">PPh 21 / 26 Karyawan</a>
-                                    <a class="dropdown-item" href="#">Jaminan Sosial Karyawan (BPJS)</a>
-                                    <a class="dropdown-item" href="#">Benefit Karyawan</a>
+                                    <!-- <a class="dropdown-item" href="#">Jaminan Sosial Karyawan (BPJS)</a> -->
+                                    <a class="dropdown-item" href="{{ route('benefit.employee') }}">Benefit Karyawan</a>
                                 </div>
                             </div>
                         </div>
