@@ -100,28 +100,43 @@
                                 <div class="col-12 col-lg-4 mega-col">
                                     <div class="mega-col-title">Manajemen Kompensasi &amp; Tunjangan</div>
                                     <a class="dropdown-item" href="{{ route('payroll.employee') }}">Manajemen Payroll &amp; Pembayaran Gaji</a>
-                                    <a class="dropdown-item" href="{{ route('pph.employee') }}">PPh 21 / 26 Karyawan</a>
+                                    <a class="dropdown-item" href="{{ route('pph.employee') }}">Pajak Karyawan</a>
                                     <!-- <a class="dropdown-item" href="#">Jaminan Sosial Karyawan (BPJS)</a> -->
-                                    <a class="dropdown-item" href="{{ route('benefit.employee') }}">Benefit Karyawan</a>
+                                    <!-- <a class="dropdown-item" href="{{ route('benefit.employee') }}">Benefit Karyawan</a> -->
                                 </div>
                             </div>
                         </div>
                     </li>
 
+
+
                     <!-- Biaya -->
                     <li class="nav-item dropdown small-drop">
-                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
-                            Biaya <i class="bi bi-chevron-down"></i>
+                        <a class="nav-link dropdown-toggle" href="{{ route('price.index') }}">
+                            Biaya
+                            <!-- <i class="bi bi-chevron-down"></i> -->
                         </a>
-                        <ul class="dropdown-menu">
+                        <!-- <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="#">Paket Starter</a></li>
                             <li><a class="dropdown-item" href="#">Paket Professional</a></li>
                             <li><a class="dropdown-item" href="#">Paket Enterprise</a></li>
-                        </ul>
+                        </ul> -->
+                    </li>
+
+                    <li class="nav-item dropdown small-drop">
+                        <a class="nav-link dropdown-toggle" href="{{ route('price.index') }}">
+                            Demo
+                            <!-- <i class="bi bi-chevron-down"></i> -->
+                        </a>
+                        <!-- <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Paket Starter</a></li>
+                            <li><a class="dropdown-item" href="#">Paket Professional</a></li>
+                            <li><a class="dropdown-item" href="#">Paket Enterprise</a></li>
+                        </ul> -->
                     </li>
 
                     <!-- Publikasi -->
-                    <li class="nav-item dropdown small-drop">
+                    <!-- <li class="nav-item dropdown small-drop">
                         <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
                             Publikasi <i class="bi bi-chevron-down"></i>
                         </a>
@@ -131,10 +146,10 @@
                             <li><a class="dropdown-item" href="#">FAQ</a></li>
                             <li><a class="dropdown-item" href="#">Bit Academy</a></li>
                         </ul>
-                    </li>
+                    </li> -->
 
                     <!-- Kemitraan -->
-                    <li class="nav-item dropdown small-drop">
+                    <!-- <li class="nav-item dropdown small-drop">
                         <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
                             Kemitraan <i class="bi bi-chevron-down"></i>
                         </a>
@@ -142,11 +157,11 @@
                             <li><a class="dropdown-item" href="#">Mitra Bisnis</a></li>
                             <li><a class="dropdown-item" href="#">Program Referral</a></li>
                         </ul>
-                    </li>
+                    </li> -->
 
                     <!-- Tentang Kami -->
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Tentang Kami</a>
+                        <a class="nav-link" href="{{ route('about.index') }}">Tentang Kami</a>
                     </li>
                 </ul>
 
