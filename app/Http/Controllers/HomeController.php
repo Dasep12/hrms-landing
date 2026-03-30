@@ -57,4 +57,9 @@ class HomeController extends Controller
     {
         return view('home.benefit_employee');
     }
+
+    public function about_us()
+    {
+        return view('about.index');
+    }
 }

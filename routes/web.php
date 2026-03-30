@@ -28,3 +28,6 @@ Route::get('/permit-employee', [App\Http\Controllers\HomeController::class, 'per
 Route::get('/payroll-employee', [App\Http\Controllers\HomeController::class, 'payroll_employee'])->name('payroll.employee');
 Route::get('/pph-employee', [App\Http\Controllers\HomeController::class, 'pph_employee'])->name('pph.employee');
 Route::get('/benefit-employee', [App\Http\Controllers\HomeController::class, 'benefit_employee'])->name('benefit.employee');
+
+Route::get('/price', [App\Http\Controllers\PriceController::class, 'index'])->name('price.index');
+Route::get('/about-us', [App\Http\Controllers\HomeController::class, 'about_us'])->name('about.index');
