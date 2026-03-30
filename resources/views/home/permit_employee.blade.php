@@ -13,20 +13,20 @@
                 <div class="mb-3">
                     <div class="hero-badge d-inline-flex">
                         <span class="badge-dot"></span>
-                        Cuti Izin Absensi Karyawan Multi Company
+                        Sistem Cuti & Perizinan Karyawan
                     </div>
                 </div>
 
                 <!-- Headline -->
                 <h5 class="hero-title mb-3">
-                    Kelola HR <span class="hl">Multi Company</span> dalam Satu Platform
+                    Kelola <span class="hl">Cuti & Izin Karyawan</span> Lebih Mudah dan Terpusat
                 </h5>
 
                 <!-- Sub -->
                 <p class="hero-sub mb-4">
-                    Kelola data karyawan, struktur organisasi, dan administrasi HR dari berbagai perusahaan
-                    atau cabang dalam satu sistem terintegrasi. Dengan BIT , manajemen group perusahaan
-                    menjadi lebih terpusat, efisien, dan mudah dipantau melalui satu dashboard.
+                    Permudah pengajuan cuti, izin, dan absensi karyawan dalam satu sistem terintegrasi.
+                    Proses persetujuan menjadi lebih cepat dengan alur approval otomatis, serta monitoring
+                    data cuti dan izin dapat dilakukan secara real-time untuk memastikan operasional tetap berjalan lancar.
                 </p>
 
 
@@ -41,7 +41,7 @@
             <!-- RIGHT COLUMN -->
             <div class="col-lg-6 mt-5 mt-lg-0">
 
-                <img src="{{ asset('assets/images/model/model-17.png') }}"
+                <img src="{{ asset('assets/images/model/model-22.png') }}"
                     alt="Software Payroll BIT"
                     class="img-fluid hero-image">
             </div>

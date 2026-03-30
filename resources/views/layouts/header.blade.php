@@ -62,7 +62,7 @@
                     <!-- Solusi & Fitur – MEGA -->
                     <li class="nav-item dropdown mega-menu-wrapper">
                         <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">
-                            Solusi &amp; Fitur
+                            HRMS
                             <i class="bi bi-chevron-down"></i>
                         </a>
                         <div class="dropdown-menu">

@@ -5,46 +5,45 @@
             <!-- App screens -->
             <div class="col-12 col-lg-5">
                 <div class="d-flex gap-3 justify-content-center align-items-end">
-                    <img src="{{ asset('assets/images/hero/hero-11.png') }}" alt="App Preview 1" class="" style="animation-delay:.4s;border-radius:16px;height:100%;width:100%">
+                    <img src="{{ asset('assets/images/hero/hero-15.png') }}" alt="App Preview 1" class="" style="animation-delay:.4s;border-radius:16px;height:100%;width:100%">
                 </div>
             </div>
 
             <!-- Feature points -->
             <div class="col-12 col-lg-7">
-                <span class="section-tag mb-3">Struktur Organisasi Multi Company</span>
-                <!-- <h2 class="section-title mt-2 mb-2" style="font-size:clamp(26px,3.5vw,40px)">Pengelolaan dan akses data karyawan <span class="ac">lebih cepat, terstruktur, dan terkontrol</span> dalam satu sistem </h2> -->
-                <!-- <p class="mb-4" style="color:var(--gray-500);font-size:16px;max-width:520px">Pengelolaan dan akses data karyawan lebih cepat, terstruktur, dan terkontrol dalam satu sistem.</p> -->
+                <span class="section-tag mb-3">Manajemen Shift & Scheduling</span>
+
                 <div class="d-flex flex-column gap-4">
 
                     <div class="d-flex gap-3 align-items-start">
-                        <div class="prev-pt-ic">🏢</div>
+                        <div class="prev-pt-ic">⏰</div>
                         <div>
-                            <h6 style="font-weight:700;margin-bottom:4px">Manajemen Multi Company</h6>
+                            <h6 style="font-weight:700;margin-bottom:4px">Master Shift Fleksibel</h6>
                             <p style="color:var(--gray-500);font-size:14px;margin:0;line-height:1.6">
-                                Kelola beberapa perusahaan, cabang, atau anak perusahaan dalam satu sistem terintegrasi
-                                tanpa perlu berpindah platform.
+                                Buat dan atur berbagai jenis shift kerja seperti shift tetap, rotasi, atau custom
+                                sesuai kebutuhan operasional perusahaan dengan mudah.
                             </p>
                         </div>
                     </div>
 
                     <div class="d-flex gap-3 align-items-start">
-                        <div class="prev-pt-ic">🌐</div>
+                        <div class="prev-pt-ic">📅</div>
                         <div>
-                            <h6 style="font-weight:700;margin-bottom:4px">Dashboard Terpusat</h6>
+                            <h6 style="font-weight:700;margin-bottom:4px">Penjadwalan Terpusat</h6>
                             <p style="color:var(--gray-500);font-size:14px;margin:0;line-height:1.6">
-                                Pantau seluruh aktivitas HR dari berbagai perusahaan dalam satu dashboard
-                                sehingga manajemen dapat memonitor operasional dengan lebih mudah.
+                                Susun dan kelola jadwal kerja karyawan dalam satu sistem terpusat
+                                sehingga memudahkan monitoring dan pengaturan tim.
                             </p>
                         </div>
                     </div>
 
                     <div class="d-flex gap-3 align-items-start">
-                        <div class="prev-pt-ic">🧩</div>
+                        <div class="prev-pt-ic">🔄</div>
                         <div>
-                            <h6 style="font-weight:700;margin-bottom:4px">Struktur Organisasi Fleksibel</h6>
+                            <h6 style="font-weight:700;margin-bottom:4px">Rotasi & Perubahan Shift</h6>
                             <p style="color:var(--gray-500);font-size:14px;margin:0;line-height:1.6">
-                                Atur struktur organisasi untuk setiap perusahaan atau cabang secara fleksibel
-                                sehingga hubungan antar divisi dan tim dapat terlihat lebih jelas.
+                                Atur rotasi shift secara otomatis serta lakukan perubahan jadwal,
+                                tukar shift, atau penyesuaian mendadak dengan cepat.
                             </p>
                         </div>
                     </div>
@@ -52,10 +51,10 @@
                     <div class="d-flex gap-3 align-items-start">
                         <div class="prev-pt-ic">✔️</div>
                         <div>
-                            <h6 style="font-weight:700;margin-bottom:4px">Approval Berjenjang</h6>
+                            <h6 style="font-weight:700;margin-bottom:4px">Approval & Kontrol Jadwal</h6>
                             <p style="color:var(--gray-500);font-size:14px;margin:0;line-height:1.6">
-                                Tentukan alur persetujuan yang berbeda untuk setiap perusahaan atau cabang
-                                agar proses administrasi HR tetap terkontrol dan transparan.
+                                Terapkan alur persetujuan untuk perubahan jadwal kerja
+                                agar tetap terkontrol, transparan, dan sesuai kebijakan perusahaan.
                             </p>
                         </div>
                     </div>

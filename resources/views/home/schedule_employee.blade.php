@@ -13,20 +13,19 @@
                 <div class="mb-3">
                     <div class="hero-badge d-inline-flex">
                         <span class="badge-dot"></span>
-                        Schedule Organisasi
+                        Shift Scheduling
                     </div>
                 </div>
 
                 <!-- Headline -->
                 <h5 class="hero-title mb-3">
-                    Kelola HR <span class="hl">Multi Company</span> dalam Satu Platform
+                    Atur <span class="hl">Shift Kerja Karyawan</span> dengan Lebih Fleksibel
                 </h5>
 
                 <!-- Sub -->
                 <p class="hero-sub mb-4">
-                    Kelola data karyawan, struktur organisasi, dan administrasi HR dari berbagai perusahaan
-                    atau cabang dalam satu sistem terintegrasi. Dengan BIT , manajemen group perusahaan
-                    menjadi lebih terpusat, efisien, dan mudah dipantau melalui satu dashboard.
+                    Kelola jadwal dan pembagian shift karyawan secara fleksibel dalam satu platform.
+                    Atur rotasi, ubah jadwal real-time, dan minimalkan konflik dengan lebih efisien.
                 </p>
 
 
@@ -41,7 +40,7 @@
             <!-- RIGHT COLUMN -->
             <div class="col-lg-6 mt-5 mt-lg-0">
 
-                <img src="{{ asset('assets/images/model/model-17.png') }}"
+                <img src="{{ asset('assets/images/model/model-21.png') }}"
                     alt="Software Payroll BIT"
                     class="img-fluid hero-image">
             </div>

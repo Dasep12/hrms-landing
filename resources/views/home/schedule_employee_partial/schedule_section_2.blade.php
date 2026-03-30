@@ -5,50 +5,43 @@
 
         <!-- Header -->
         <div class="text-center mb-5">
-            <!-- <span class="section-tag">Kenapa Memilih BIT HRMS ? </span> -->
-
             <h2 class="section-title mt-2" style="font-size:clamp(26px,3vw,30px)">
-                Atur struktur organisasi dan manajemen HR <br>
-                untuk <span class="ac">group perusahaan</span> secara terpusat dalam satu platform.
+                Kelola <span class="ac">master shift</span> dan jadwal kerja karyawan <br>
+                secara fleksibel dan terpusat dalam satu platform.
             </h2>
-
-            <!-- <p style="color:var(--gray-500);font-size:16px;max-width:640px;margin:0 auto">
-                Satu platform terintegrasi untuk mengelola data karyawan, absensi, payroll,
-                dan laporan HR perusahaan secara otomatis, aman, dan real-time.
-            </p> -->
         </div>
 
         <!-- Features -->
         <div class="row g-4">
             <div class="col-12 col-md-4">
                 <div class="feat-card">
-                    <div class="feat-icon mb-3" style="background:var(--bit-blue-pale)">🏢</div>
-                    <h5 class="mb-2">Manajemen Multi Company</h5>
+                    <div class="feat-icon mb-3" style="background:var(--bit-blue-pale)">⏰</div>
+                    <h5 class="mb-2">Pengaturan Master Shift</h5>
                     <p>
-                        Kelola beberapa perusahaan, anak perusahaan, atau cabang dalam satu sistem terintegrasi
-                        tanpa perlu berpindah platform. Semua data HR dapat dipantau secara terpusat.
+                        Buat dan kelola berbagai jenis shift kerja (pagi, siang, malam, custom)
+                        sesuai kebutuhan operasional perusahaan dengan aturan jam kerja yang fleksibel.
                     </p>
                 </div>
             </div>
 
             <div class="col-12 col-md-4">
                 <div class="feat-card">
-                    <div class="feat-icon mb-3" style="background:#E8F5E9">🧩</div>
-                    <h5 class="mb-2">Struktur Organisasi Berjenjang</h5>
+                    <div class="feat-icon mb-3" style="background:#E8F5E9">📅</div>
+                    <h5 class="mb-2">Scheduling Otomatis</h5>
                     <p>
-                        Bangun struktur organisasi untuk setiap perusahaan atau cabang dengan sistem
-                        leveling yang fleksibel sehingga alur koordinasi dan tanggung jawab tim lebih jelas.
+                        Susun jadwal kerja karyawan secara otomatis maupun manual,
+                        lengkap dengan rotasi shift, hari libur, dan penyesuaian kebutuhan tim.
                     </p>
                 </div>
             </div>
 
             <div class="col-12 col-md-4">
                 <div class="feat-card">
-                    <div class="feat-icon mb-3" style="background:#E0F7FA">🔐</div>
-                    <h5 class="mb-2">Kontrol Akses Antar Perusahaan</h5>
+                    <div class="feat-icon mb-3" style="background:#E0F7FA">🔄</div>
+                    <h5 class="mb-2">Fleksibilitas & Penyesuaian</h5>
                     <p>
-                        Atur hak akses pengguna berdasarkan perusahaan, cabang, atau divisi sehingga
-                        setiap tim hanya dapat mengakses data yang sesuai dengan kewenangannya.
+                        Lakukan perubahan jadwal dengan mudah, termasuk tukar shift,
+                        penyesuaian mendadak, dan update real-time tanpa mengganggu operasional.
                     </p>
                 </div>
             </div>

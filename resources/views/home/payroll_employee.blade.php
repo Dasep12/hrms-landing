@@ -13,35 +13,33 @@
                 <div class="mb-3">
                     <div class="hero-badge d-inline-flex">
                         <span class="badge-dot"></span>
-                        Payroll Organisasi
+                        Sistem Payroll Karyawan
                     </div>
                 </div>
 
                 <!-- Headline -->
                 <h5 class="hero-title mb-3">
-                    Kelola HR <span class="hl">Multi Company</span> dalam Satu Platform
+                    Kelola <span class="hl">Payroll Karyawan</span> Lebih Akurat & Otomatis
                 </h5>
 
                 <!-- Sub -->
                 <p class="hero-sub mb-4">
-                    Kelola data karyawan, struktur organisasi, dan administrasi HR dari berbagai perusahaan
-                    atau cabang dalam satu sistem terintegrasi. Dengan BIT , manajemen group perusahaan
-                    menjadi lebih terpusat, efisien, dan mudah dipantau melalui satu dashboard.
+                    Proses penggajian karyawan menjadi lebih mudah dengan sistem payroll terintegrasi.
+                    Hitung gaji, tunjangan, potongan, hingga pajak secara otomatis dengan hasil yang akurat,
+                    serta akses laporan payroll secara real-time dalam satu platform.
                 </p>
-
 
                 <!-- CTA -->
                 <div class="d-flex gap-3 flex-wrap justify-content-lg-start justify-content-center">
                     <button class="btn btn-hero-ghost"> Hubungi Sales</button>
                     <button class="btn btn-hero-main"> Coba BIT Gratis</button>
                 </div>
-
             </div>
 
             <!-- RIGHT COLUMN -->
             <div class="col-lg-6 mt-5 mt-lg-0">
 
-                <img src="{{ asset('assets/images/model/model-17.png') }}"
+                <img src="{{ asset('assets/images/model/model-23.png') }}"
                     alt="Software Payroll BIT"
                     class="img-fluid hero-image">
             </div>

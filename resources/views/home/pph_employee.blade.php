@@ -13,35 +13,30 @@
                 <div class="mb-3">
                     <div class="hero-badge d-inline-flex">
                         <span class="badge-dot"></span>
-                        Struktur Organisasi
+                        PPh 21 & Payroll
                     </div>
                 </div>
 
                 <!-- Headline -->
                 <h5 class="hero-title mb-3">
-                    Kelola HR <span class="hl">Multi Company</span> dalam Satu Platform
+                    Hitung <span class="hl">PPh 21 Otomatis</span> Lebih Akurat & Efisien
                 </h5>
 
                 <!-- Sub -->
                 <p class="hero-sub mb-4">
-                    Kelola data karyawan, struktur organisasi, dan administrasi HR dari berbagai perusahaan
-                    atau cabang dalam satu sistem terintegrasi. Dengan BIT , manajemen group perusahaan
-                    menjadi lebih terpusat, efisien, dan mudah dipantau melalui satu dashboard.
+                    Kelola perhitungan PPh 21 karyawan secara otomatis dan sesuai regulasi terbaru.
+                    Mulai dari gaji tetap, tunjangan, hingga komponen variabel dapat dihitung secara real-time
+                    dalam satu sistem HRMS. Proses payroll jadi lebih cepat, minim kesalahan, dan siap untuk pelaporan pajak.
                 </p>
 
-
                 <!-- CTA -->
-                <div class="d-flex gap-3 flex-wrap justify-content-lg-start justify-content-center">
-                    <button class="btn btn-hero-ghost"> Hubungi Sales</button>
-                    <button class="btn btn-hero-main"> Coba BIT Gratis</button>
-                </div>
-
+                <div class="d-flex gap-3 flex-wrap justify-content-lg-start justify-content-center"> <button class="btn btn-hero-ghost"> Hubungi Sales</button> <button class="btn btn-hero-main"> Coba BIT Gratis</button> </div>
             </div>
 
             <!-- RIGHT COLUMN -->
             <div class="col-lg-6 mt-5 mt-lg-0">
 
-                <img src="{{ asset('assets/images/model/model-17.png') }}"
+                <img src="{{ asset('assets/images/model/model-24.png') }}"
                     alt="Software Payroll BIT"
                     class="img-fluid hero-image">
             </div>
