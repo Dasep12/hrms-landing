@@ -10,23 +10,23 @@
 <section class="hero-section">
     <div class="container-xl px-3 px-lg-5 py-5 position-relative" style="z-index:1">
 
-        <div class="row align-items-center">
+        <div class="row align-items-center" style="display: flex; justify-content: center;">
 
             <!-- LEFT COLUMN -->
-            <div class="col-lg-6 text-lg-start text-center">
+            <div class="col-lg-5 text-lg-start text-center">
 
                 <!-- Badge -->
                 <div class="mb-3">
                     <div class="hero-badge d-inline-flex">
-                        <span class="badge-dot"></span>
+                        {{-- <span class="badge-dot"></span> --}}
                         Software HR terbaik di Indonesia
                     </div>
                 </div>
 
                 <!-- Headline -->
-                <h5 class="hero-title mb-3">
-                    Payroll Software untuk Mengelola
-                    Keuangan &amp; Karyawan <span class="hl">Perusahaan</span>
+                <h5 class="hero-title mb-3 h1">
+                    <span class="hl">Payroll Software</span> untuk Mengelola
+                    Keuangan &amp; <span class="hl">Karyawan Perusahaan</span>
                 </h5>
 
                 <!-- Sub -->
@@ -45,11 +45,11 @@
             </div>
 
             <!-- RIGHT COLUMN -->
-            <div class="col-lg-6 mt-5 mt-lg-0">
+            <div class="col-lg-6 mt-5 mt-lg-0" style="display: flex; justify-content: center;">
 
                 <img src="{{ asset('assets/images/model/model-15.png') }}"
                     alt="Software Payroll BIT"
-                    class="img-fluid hero-image">
+                    class="img-fluid hero-image" style="display: flex; justify-content: center;">
             </div>
 
 

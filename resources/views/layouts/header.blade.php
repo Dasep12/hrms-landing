@@ -32,14 +32,14 @@
         <div class="container-xl px-3 px-lg-4">
 
             <!-- Brand + Lang -->
-            <a class="navbar-brand me-3 bit-logo" href="{{ route('home') }}">
-                <img src="{{ asset('assets/images/logo-bit.png') }}" alt="Logo Bit HRMS" class="logo-light" height="70" width="70">
+            <a class="navbar-brand me-3 bit-logo" href="{{ route('home') }}" style="padding: 8px">
+                <img src="{{ asset('assets/images/icon-bit.png') }}" alt="Logo Bit HRMS" class="logo-light" height="64" width="64" style="object-fit: cover">
             </a>
 
             <!-- Lang (desktop only) -->
-            <div class="nav-lang d-none d-lg-flex align-items-center me-2">
+            {{-- <div class="nav-lang d-none d-lg-flex align-items-center me-2">
                 <a href="#" class="active">EN</a><span class="sep">|</span><a href="#">ID</a>
-            </div>
+            </div> --}}
 
             <!-- Toggler -->
             <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">

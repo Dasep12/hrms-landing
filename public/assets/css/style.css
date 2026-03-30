@@ -414,7 +414,7 @@ body {
 /* Headline */
 .hero-title {
     font-family: "Sora", sans-serif;
-    font-size: clamp(32px, 5vw, 36px);
+    /* font-size: clamp(32px, 5vw, 36px); */
     font-weight: 800;
     color: white;
     line-height: 1.1;
@@ -693,6 +693,7 @@ body {
     border-bottom: 1px solid var(--gray-100);
     padding: 20px 0;
 }
+
 .trust-logo {
     font-family: "Sora", sans-serif;
     font-weight: 700;
@@ -708,13 +709,14 @@ body {
     display: inline-block;
     background: var(--bit-blue-pale);
     color: var(--bit-blue);
-    font-size: 11.5px;
-    font-weight: 700;
+    font-size: 12px;
+    font-weight: 500;
     padding: 4px 14px;
     border-radius: 50px;
     text-transform: uppercase;
-    letter-spacing: 0.6px;
+    letter-spacing: 0.8px;
 }
+
 .section-title {
     font-family: "Sora", sans-serif;
     font-weight: 650;
@@ -737,7 +739,7 @@ body {
     overflow: hidden;
     height: 100%;
 }
-.feat-card::after {
+/* .feat-card::after {
     content: "";
     position: absolute;
     top: 0;
@@ -748,7 +750,8 @@ body {
     transform: scaleX(0);
     transition: transform 0.3s;
     transform-origin: left;
-}
+} */
+
 .feat-card:hover {
     transform: translateY(-6px);
     box-shadow: 0 20px 50px rgba(10, 31, 92, 0.1);
@@ -1120,19 +1123,19 @@ footer {
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
-    gap: 50px !important;
+    gap: 64px !important;
     flex-wrap: wrap !important;
 }
 
 .trust-logo {
-    height: 70px !important;
+    height: 64px !important;
     display: flex !important;
     align-items: center !important;
 }
 
 .trust-logo img {
-    max-height: 70px !important;
-    width: auto !important;
+    max-height: 64px !important;
+    width: 134px !important;
     object-fit: contain !important;
     filter: grayscale(20%) brightness(120%) !important;
     transition: 0.3s !important;
