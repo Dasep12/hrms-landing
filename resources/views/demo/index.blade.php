@@ -16,7 +16,7 @@
 
                 <h1 class="fw-bold">
                     Demo & Konsultasi <br>
-                    <span class="text-danger">Gratis</span>
+                    <span class="text-primary">Gratis</span>
                 </h1>
 
                 <p class="text-muted mt-3">
@@ -61,7 +61,7 @@
                         <div class="mb-3">
                             <label class="form-label">Nama Lengkap</label>
                             <div class="input-group">
-                                <span class="input-group-text">👤</span>
+                                <span class="input-group-text"><i class="bi bi-person"></i></span>
                                 <input type="text" class="form-control" placeholder="Nama">
                             </div>
                         </div>
@@ -70,7 +70,7 @@
                         <div class="mb-3">
                             <label class="form-label">Alamat Email</label>
                             <div class="input-group">
-                                <span class="input-group-text">✉️</span>
+                                <span class="input-group-text"><i class="bi bi-envelope"></i></span>
                                 <input type="email" class="form-control" placeholder="email@domain.com">
                             </div>
                         </div>
@@ -79,7 +79,7 @@
                         <div class="mb-3">
                             <label class="form-label">Nomor HP</label>
                             <div class="input-group">
-                                <span class="input-group-text">📞</span>
+                                <span class="input-group-text"><i class="bi bi-telephone"></i></span>
                                 <input type="text" class="form-control" placeholder="08xxxxxxx">
                             </div>
                         </div>
@@ -88,13 +88,22 @@
                         <div class="mb-3">
                             <label class="form-label">Nama Perusahaan</label>
                             <div class="input-group">
-                                <span class="input-group-text">🏢</span>
+                                <span class="input-group-text"><i class="bi bi-building"></i></span>
                                 <input type="text" class="form-control" placeholder="Nama perusahaan">
                             </div>
                         </div>
 
+                        <!-- JUMLAH KARYAWAN -->
+                        <div class="mb-3">
+                            <label class="form-label">Jumlah Karyawan</label>
+                            <div class="input-group">
+                                <span class="input-group-text"><i class="bi bi-people"></i></span>
+                                <input type="text" class="form-control" placeholder="Jumlah karyawan">
+                            </div>
+                        </div>
+
                         <!-- BUTTON -->
-                        <button class="btn btn-danger w-100 py-2 fw-semibold">
+                        <button class="btn btn-primary w-100 py-2 fw-semibold">
                             Jadwalkan Demo
                         </button>
 

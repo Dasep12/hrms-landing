@@ -77,9 +77,9 @@
 
                     <p class="fw-semibold">Konsultasikan harga dengan kami</p>
 
-                    <button class="btn btn-dark w-100">
+                    <a href="https://wa.me/6281234567890" class="btn btn-dark w-100" target="_blank">
                         WhatsApp sales
-                    </button>
+                    </a>
                 </div>
             </div>
 
@@ -105,9 +105,9 @@
 
                     <p class="fw-semibold">Konsultasikan harga dengan kami</p>
 
-                    <button class="btn btn-dark w-100 mb-2">
+                    <a href="https://wa.me/6281234567890" class="btn btn-dark w-100 mb-2" target="_blank">
                         WhatsApp sales
-                    </button>
+                    </a>
                     <!-- 
                 <button class="btn btn-outline-secondary w-100">
                     Lihat perbandingan fitur ↓

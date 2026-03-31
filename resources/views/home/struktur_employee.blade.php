@@ -31,10 +31,7 @@
 
 
                 <!-- CTA -->
-                <div class="d-flex gap-3 flex-wrap justify-content-lg-start justify-content-center">
-                    <button class="btn btn-hero-ghost"> Hubungi Sales</button>
-                    <button class="btn btn-hero-main"> Coba BIT Gratis</button>
-                </div>
+                @include('home.home_partial.button_cta')
 
             </div>
 

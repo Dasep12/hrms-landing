@@ -29,17 +29,14 @@
 
 
                 <!-- CTA -->
-                <div class="d-flex gap-3 flex-wrap justify-content-lg-start justify-content-center">
-                    <button class="btn btn-hero-ghost"> Hubungi Sales</button>
-                    <button class="btn btn-hero-main"> Coba BIT Gratis</button>
-                </div>
+                @include('home.home_partial.button_cta')
 
             </div>
 
             <!-- RIGHT COLUMN -->
             <div class="col-lg-6 mt-5 mt-lg-0">
 
-                <img src="{{ asset('assets/images/model/model-19.png') }}"
+                <img src="{{ asset('assets/images/model/model-196.png') }}"
                     alt="Software Payroll BIT"
                     class="img-fluid hero-image">
             </div>

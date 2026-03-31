@@ -83,7 +83,7 @@
                                     <!-- <a class="dropdown-item" href="#">Dasbor Rekrutmen &amp; Jobsite</a> -->
                                     <!-- <div class="mega-col-title mt-4">Analisis Kinerja Karyawan</div> -->
                                     <!-- <a class="dropdown-item" href="#">Evaluasi Kinerja Karyawan</a> -->
-                                    <a class="dropdown-item" href="{{ route('dashboard.employee') }}">Dasbor HR Analytics</a>
+                                    <a class="dropdown-item" href="{{ route('dashboard.employee') }}">Dashboard HR Analytics</a>
                                     <a class="dropdown-item" href="{{ route('apps.employee') }}">Aplikasi Mobile Karyawan</a>
                                 </div>
                                 <div class="col-12 col-lg-4 mega-col">
@@ -167,9 +167,9 @@
 
                 <!-- CTA -->
                 <div class="nav-cta-wrap d-flex align-items-center gap-2 flex-wrap flex-lg-nowrap">
-                    <button class="btn btn-masuk">MASUK</button>
-                    <button class="btn btn-daftar">DAFTAR</button>
-                    <button class="btn btn-coba">Coba BIT GRATIS!</button>
+                    <a href="https://account.bithrms.com/" class="btn btn-masuk">MASUK</a>
+                    <a href="{{ route('demo.index') }}" class="btn btn-daftar">DAFTAR</a>
+                    <a href="{{ route('demo.index') }}" class="btn btn-coba">Coba BIT GRATIS!</a>
                 </div>
 
             </div>
