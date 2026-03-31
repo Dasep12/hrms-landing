@@ -18,7 +18,7 @@
                 <!-- Badge -->
                 <div class="mb-3">
                     <div class="hero-badge d-inline-flex">
-                        {{-- <span class="badge-dot"></span> --}}
+                        {{--  --}}
                         Software HR terbaik di Indonesia
                     </div>
                 </div>

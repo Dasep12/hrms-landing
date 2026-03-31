@@ -12,13 +12,13 @@
                 <!-- Badge -->
                 <div class="mb-3">
                     <div class="hero-badge d-inline-flex">
-                        <span class="badge-dot"></span>
+                        
                         Mobile Application
                     </div>
                 </div>
 
                 <!-- Headline -->
-                <h5 class="hero-title mb-3">
+                <h5 class="hero-title mb-3 h2">
                     Kelola HR Lebih Mudah dengan <span class="hl">Mobile Application BIT</span>
                 </h5>
 

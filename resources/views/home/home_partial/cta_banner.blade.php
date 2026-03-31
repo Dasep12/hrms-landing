@@ -8,7 +8,7 @@
                     <p style="color:var(--bit-blue-mid);font-size:15px;margin:0">Mulai gratis sekarang — tidak perlu kartu kredit.</p>
                 </div>
                 <div class="col-12 col-lg-5 d-flex gap-3 flex-wrap justify-content-lg-end">
-                    <button class="btn btn-cta-m">🚀 Coba BIT Gratis</button>
+                    <button class="btn btn-cta-m">Coba BIT Gratis</button>
                     <button class="btn btn-cta-s">Jadwalkan Demo</button>
                 </div>
             </div>
