@@ -12,13 +12,12 @@
                 <!-- Badge -->
                 <div class="mb-3">
                     <div class="hero-badge d-inline-flex">
-                        <span class="badge-dot"></span>
                         Sistem Payroll Karyawan
                     </div>
                 </div>
 
                 <!-- Headline -->
-                <h5 class="hero-title mb-3">
+                <h5 class="hero-title mb-3 h2">
                     Kelola <span class="hl">Payroll Karyawan</span> Lebih Akurat & Otomatis
                 </h5>
 

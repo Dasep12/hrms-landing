@@ -12,13 +12,13 @@
                 <!-- Badge -->
                 <div class="mb-3">
                     <div class="hero-badge d-inline-flex">
-                        <span class="badge-dot"></span>
+                        
                         Shift Scheduling
                     </div>
                 </div>
 
                 <!-- Headline -->
-                <h5 class="hero-title mb-3">
+                <h5 class="hero-title mb-3 h2">
                     Atur <span class="hl">Shift Kerja Karyawan</span> dengan Lebih Fleksibel
                 </h5>
 

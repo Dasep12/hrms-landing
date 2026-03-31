@@ -14,13 +14,12 @@
                 <!-- Badge -->
                 <div class="mb-3">
                     <div class="hero-badge d-inline-flex">
-                        <span class="badge-dot"></span>
                         Dashboard Analityc
                     </div>
                 </div>
 
                 <!-- Headline -->
-                <h5 class="hero-title mb-3"> Dashboard <span class="hl">HR Analytics</span> untuk Multi Company </h5>
+                <h5 class="hero-title mb-3 h2"> Dashboard <span class="hl">HR Analytics</span> untuk Multi Company </h5>
 
                 <!-- Sub -->
                 <p class="hero-sub mb-4">

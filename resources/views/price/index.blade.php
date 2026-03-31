@@ -22,12 +22,12 @@
     }
 
     .highlight {
-        border: 2px solid #dc3545;
+        border: 2px solid #1455cc;
         background: #fff;
     }
 
     .feature-box {
-        background: #d9e6f2;
+        background: #f5f8ff;
         border-radius: 8px;
         padding: 15px;
     }
@@ -39,6 +39,14 @@
     }
 
     .btn-dark {
+        background-color: #1455cc;
+        border: none;
+        border-radius: 8px;
+    }
+
+    .btn-dark:hover {
+        background-color: #0d3a99;
+        border: none;   
         border-radius: 8px;
     }
 </style>
@@ -87,9 +95,9 @@
             <div class="col-md-6">
                 <div class="card pricing-card highlight p-4 position-relative">
 
-                    <span class="badge bg-danger badge-popular">Most popular</span>
+                    <span class="badge badge-popular" style="background-color: #1455cc;">Most popular</span>
 
-                    <h4 class="fw-bold">Plus</h4>
+                    <h3 style="font-weight: 700; color: #1455cc">Plus</h3>
                     <p class="text-muted">
                         Teknologi HR tingkat lanjut untuk produktivitas & fleksibilitas.
                     </p>

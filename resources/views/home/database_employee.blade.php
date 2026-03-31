@@ -14,13 +14,12 @@
                 <!-- Badge -->
                 <div class="mb-3">
                     <div class="hero-badge d-inline-flex">
-                        <span class="badge-dot"></span>
                         Database Karyawan
                     </div>
                 </div>
 
                 <!-- Headline -->
-                <h5 class="hero-title mb-3">
+                <h5 class="hero-title mb-3 h2">
                     Manajemen Data Karyawan Lebih Mudah & <span class="hl">Terintegrasi</span>
                 </h5>
 

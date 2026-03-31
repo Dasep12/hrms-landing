@@ -63,7 +63,7 @@
                     </div>
 
                     <h5 class="mb-2">Implementasi Cepat</h5>
-                    
+
                     <p>Sistem siap digunakan tanpa instalasi rumit sehingga perusahaan dapat langsung mulai mengelola HR secara digital.</p>
                 </div>
             </div>
@@ -71,7 +71,7 @@
             <div class="col-12 col-md-4">
                 <div class="feat-card">
                     <div class="feat-icon mb-3" style="background:#F3E5F5">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="40px" height="40px" viewBox="0 0 640 640"><path fill="#1455cc" d="M128 128c0-17.7-14.3-32-32-32s-32 14.3-32 32v336c0 44.2 35.8 80 80 80h400c17.7 0 32-14.3 32-32s-14.3-32-32-32H144c-8.8 0-16-7.2-16-16zm406.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L384 274.7l-57.4-57.3c-12.5-12.5-32.8-12.5-45.3 0l-96 96c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l73.4-73.4l57.4 57.4c12.5 12.5 32.8 12.5 45.3 0l128-128z"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40px" height="40px" viewBox="0 0 24 24"><g fill="none" stroke="#0d3a99" stroke-width="1.5"><path stroke-linecap="round" d="M22 22H2"/><path d="M21 22v-7.5a1.5 1.5 0 0 0-1.5-1.5h-3a1.5 1.5 0 0 0-1.5 1.5V22m0 0V5c0-1.414 0-2.121-.44-2.56C14.122 2 13.415 2 12 2s-2.121 0-2.56.44C9 2.878 9 3.585 9 5v17m0 0V9.5A1.5 1.5 0 0 0 7.5 8h-3A1.5 1.5 0 0 0 3 9.5V22"/></g></svg>
                     </div>
 
                     <h5 class="mb-2">Dashboard & Insight HR</h5>
