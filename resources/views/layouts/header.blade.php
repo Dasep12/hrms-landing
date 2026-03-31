@@ -124,7 +124,7 @@
                     </li>
 
                     <li class="nav-item dropdown small-drop">
-                        <a class="nav-link dropdown-toggle" href="{{ route('price.index') }}">
+                        <a class="nav-link dropdown-toggle" href="{{ route('demo.index') }}">
                             Demo
                             <!-- <i class="bi bi-chevron-down"></i> -->
                         </a>

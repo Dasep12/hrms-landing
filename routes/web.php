@@ -29,5 +29,6 @@ Route::get('/payroll-employee', [App\Http\Controllers\HomeController::class, 'pa
 Route::get('/pph-employee', [App\Http\Controllers\HomeController::class, 'pph_employee'])->name('pph.employee');
 Route::get('/benefit-employee', [App\Http\Controllers\HomeController::class, 'benefit_employee'])->name('benefit.employee');
 
-Route::get('/price', [App\Http\Controllers\PriceController::class, 'index'])->name('price.index');
+Route::get('/price', [App\Http\Controllers\HomeController::class, 'price'])->name('price.index');
 Route::get('/about-us', [App\Http\Controllers\HomeController::class, 'about_us'])->name('about.index');
+Route::get('/demo', [App\Http\Controllers\HomeController::class, 'demo'])->name('demo.index');

@@ -62,4 +62,14 @@ class HomeController extends Controller
     {
         return view('about.index');
     }
+
+    public function price()
+    {
+        return view('price.index');
+    }
+
+    public function demo()
+    {
+        return view('demo.index');
+    }
 }
