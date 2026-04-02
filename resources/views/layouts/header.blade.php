@@ -21,6 +21,28 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/regular.min.css" integrity="sha512-d2x1oQUT6HACW9UlXxWI6XrIBDrEE5z2tit/+kWEdXdVYuift7sm+Q6ucfGWQr1F0+GD9/6eYoYDegw2nm05Vw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+
+    <meta name="description" content="@yield('meta_description', 'Website HR, pajak, dan payroll terbaik')">
+    <meta name="keywords" content="@yield('meta_keywords', 'pph21, payroll, hris, pajak indonesia')">
+    <meta name="author" content="Nama Perusahaan">
+
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph (Facebook, WhatsApp) -->
+    <meta property="og:title" content="@yield('title')">
+    <meta property="og:description" content="@yield('meta_description')">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ url()->current() }}">
+    <meta property="og:image" content="{{ asset('images/seo.jpg') }}">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="@yield('title')">
+    <meta name="twitter:description" content="@yield('meta_description')">
+    <meta name="twitter:image" content="{{ asset('images/seo.jpg') }}">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
 </head>
 
 <body>
@@ -136,17 +158,16 @@
                     </li>
 
                     <!-- Publikasi -->
-                    <!-- <li class="nav-item dropdown small-drop">
+                    <li class="nav-item dropdown small-drop">
                         <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
                             Publikasi <i class="bi bi-chevron-down"></i>
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Blog</a></li>
-                            <li><a class="dropdown-item" href="#">Kamus HR</a></li>
-                            <li><a class="dropdown-item" href="#">FAQ</a></li>
-                            <li><a class="dropdown-item" href="#">Bit Academy</a></li>
+                            <li><a class="dropdown-item" href="{{ route('pph.index') }}">Pph 21</a></li>
+                            <li><a class="dropdown-item" href="{{ route('overtime.index') }}">Overtime Regulation</a></li>
+                            <li><a class="dropdown-item" href="{{ route('kompen_thr.index') }}">Kompensasi dan THR</a></li>
                         </ul>
-                    </li> -->
+                    </li>
 
                     <!-- Kemitraan -->
                     <!-- <li class="nav-item dropdown small-drop">

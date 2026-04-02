@@ -32,3 +32,10 @@ Route::get('/benefit-employee', [App\Http\Controllers\HomeController::class, 'be
 Route::get('/price', [App\Http\Controllers\HomeController::class, 'price'])->name('price.index');
 Route::get('/about-us', [App\Http\Controllers\HomeController::class, 'about_us'])->name('about.index');
 Route::get('/contact-demo', [App\Http\Controllers\HomeController::class, 'demo'])->name('demo.index');
+
+
+Route::post('/send-email', [App\Http\Controllers\HomeController::class, 'send_email'])->name('send.email');
+
+Route::get('/pph', [App\Http\Controllers\HomeController::class, 'pph'])->name('pph.index');
+Route::get('/overtime', [App\Http\Controllers\HomeController::class, 'overtime'])->name('overtime.index');
+Route::get('/kompen-thr', [App\Http\Controllers\HomeController::class, 'kompen_thr'])->name('kompen_thr.index');

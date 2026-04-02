@@ -16,11 +16,11 @@
 
                 <h1 class="fw-bold">
                     Demo & Konsultasi <br>
-                    <span class="text-primary">Gratis</span>
+                    <span class="ac">Gratis</span>
                 </h1>
 
                 <p class="text-muted mt-3">
-                    Diskusikan kebutuhan HR perusahaan Anda bersama tim BIT HRMS.
+                    Diskusikan kebutuhan HR perusahaan Anda bersama tim BIT .
                     Dapatkan solusi terbaik melalui sesi demo online secara langsung.
                 </p>
 
@@ -35,26 +35,46 @@
                     </ul>
                 </div>
 
+                @if(session('success'))
+                <div class="mt-4 alert alert-success alert-dismissible fade show" role="alert">
+                    {{ session('success') }}
+                    <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                </div>
+                @endif
+
+                @if ($errors->any())
+                <div class="alert alert-danger mt-4">
+                    Error: Mohon perbaiki kesalahan berikut:
+                    <ul class="mb-0">
+                        @foreach ($errors->all() as $error)
+                        <li>{{ $error }}</li>
+                        @endforeach
+                    </ul>
+                </div>
+                @endif
+
+
             </div>
 
             <!-- RIGHT FORM -->
             <div class="col-lg-6">
 
                 <div class="card shadow-sm border-0 p-4">
-                    <h4 class="fw-bold mb-4">Hubungi Tim BIT HRMS</h4>
+                    <h4 class="fw-bold mb-4">Hubungi Tim BIT</h4>
 
-                    <form>
+                    <form method="POST" action="{{ route('send.email') }}">
+                        @csrf
 
                         <!-- TANGGAL -->
                         <div class="mb-3">
                             <label class="form-label">Tanggal</label>
-                            <input type="date" class="form-control">
+                            <input name="tanggal" type="date" class="form-control">
                         </div>
 
                         <!-- JAM -->
                         <div class="mb-3">
                             <label class="form-label">Jam</label>
-                            <input type="time" class="form-control">
+                            <input name="jam" type="time" class="form-control">
                         </div>
 
                         <!-- NAMA -->
@@ -62,7 +82,7 @@
                             <label class="form-label">Nama Lengkap</label>
                             <div class="input-group">
                                 <span class="input-group-text"><i class="bi bi-person"></i></span>
-                                <input type="text" class="form-control" placeholder="Nama">
+                                <input name="nama" type="text" class="form-control" placeholder="Nama">
                             </div>
                         </div>
 
@@ -71,7 +91,7 @@
                             <label class="form-label">Alamat Email</label>
                             <div class="input-group">
                                 <span class="input-group-text"><i class="bi bi-envelope"></i></span>
-                                <input type="email" class="form-control" placeholder="email@domain.com">
+                                <input name="email" type="email" class="form-control" placeholder="email@domain.com">
                             </div>
                         </div>
 
@@ -80,7 +100,7 @@
                             <label class="form-label">Nomor HP</label>
                             <div class="input-group">
                                 <span class="input-group-text"><i class="bi bi-telephone"></i></span>
-                                <input type="text" class="form-control" placeholder="08xxxxxxx">
+                                <input name="hp" type="text" class="form-control" placeholder="08xxxxxxx">
                             </div>
                         </div>
 
@@ -89,7 +109,7 @@
                             <label class="form-label">Nama Perusahaan</label>
                             <div class="input-group">
                                 <span class="input-group-text"><i class="bi bi-building"></i></span>
-                                <input type="text" class="form-control" placeholder="Nama perusahaan">
+                                <input name="perusahaan" type="text" class="form-control" placeholder="Nama perusahaan">
                             </div>
                         </div>
 
@@ -98,7 +118,7 @@
                             <label class="form-label">Jumlah Karyawan</label>
                             <div class="input-group">
                                 <span class="input-group-text"><i class="bi bi-people"></i></span>
-                                <input type="text" class="form-control" placeholder="Jumlah karyawan">
+                                <input name="jumlah_karyawan" type="text" class="form-control" placeholder="Jumlah karyawan">
                             </div>
                         </div>
 
@@ -119,4 +139,8 @@
 
 
 <!-- ════ CTA BANNER ════ -->
+
+<script>
+
+</script>
 @endsection

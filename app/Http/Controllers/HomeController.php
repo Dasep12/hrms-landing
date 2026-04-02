@@ -72,4 +72,50 @@ class HomeController extends Controller
     {
         return view('demo.index');
     }
+
+    public function send_email(Request $request)
+    {
+        $validated = $request->validate([
+            'name'        => 'required|string|max:100',
+            'email'       => 'required|email',
+            'tanggal'     => 'required|date',
+            'perusahaan'  => 'required|string|max:150',
+        ], [
+            'name.required'        => 'Nama wajib diisi',
+            'email.required'       => 'Email wajib diisi',
+            'email.email'          => 'Format email tidak valid',
+            'tanggal.required'     => 'Tanggal wajib diisi',
+            'tanggal.date'         => 'Format tanggal tidak valid',
+            'perusahaan.required'  => 'Perusahaan wajib diisi',
+        ]);
+        $email = ['depiyawandasep13@gmail.com', 'developer@bithrms.com'];
+
+        $data = $request->all();
+
+        try {
+            for ($i = 0; $i < count($email); $i++) {
+                \Mail::to($email[$i])->send(new \App\Mail\SendEmail($data));
+            }
+        } catch (\Exception $e) {
+            return 'Failed to send email: ' . $e->getMessage();
+        }
+        return redirect()->route('demo.index')->with('success', 'Email sent successfully!');
+    }
+
+
+    // publikasi 
+    public function pph()
+    {
+        return view('publication.pph');
+    }
+
+    public function overtime()
+    {
+        return view('publication.overtime');
+    }
+
+    public function kompen_thr()
+    {
+        return view('publication.kompen_thr');
+    }
 }
