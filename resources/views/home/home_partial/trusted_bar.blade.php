@@ -8,19 +8,23 @@
         <div class="trust-logos">
 
             <div class="trust-logo">
-                <img src="{{ asset('assets/images/logo/bti_logo_hires.png') }}">
+                <img src="{{ asset('assets/images/logo/bonecom-logo.png') }}">
             </div>
 
             <div class="trust-logo">
-                <img src="{{ asset('assets/images/logo/btp - Copy.png') }}">
+                <img src="{{ asset('assets/images/logo/btp-logo.png') }}">
             </div>
 
-            <!-- <div class="trust-logo">
-                <img src="{{ asset('assets/images/logo/MIRAI LOGO.png') }}">
-            </div> -->
+            <div class="trust-logo">
+                <img src="{{ asset('assets/images/logo/bit-logo.png') }}">
+            </div>
 
             <div class="trust-logo">
-                <img src="{{ asset('assets/images/logo/logo-rim.png') }}">
+                <img src="{{ asset('assets/images/logo/rim-logo.png') }}">
+            </div>
+
+            <div class="trust-logo">
+                <img src="{{ asset('assets/images/logo/rmp-logo.png') }}">
             </div>
 
         </div>
