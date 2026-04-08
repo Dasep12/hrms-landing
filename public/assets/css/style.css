@@ -1129,14 +1129,14 @@ footer {
 }
 
 .trust-logo {
-    height: 64px !important;
+    height: 72px !important;
     display: flex !important;
     align-items: center !important;
 }
 
 .trust-logo img {
-    max-height: 64px !important;
-    width: 134px !important;
+    max-height: 72px !important;
+    width: 150px !important;
     object-fit: contain !important;
     filter: grayscale(20%) brightness(120%) !important;
     transition: 0.3s !important;
