@@ -76,12 +76,12 @@ class HomeController extends Controller
     public function send_email(Request $request)
     {
         $validated = $request->validate([
-            'name'        => 'required|string|max:100',
+            'nama'        => 'required|string|max:100',
             'email'       => 'required|email',
             'tanggal'     => 'required|date',
             'perusahaan'  => 'required|string|max:150',
         ], [
-            'name.required'        => 'Nama wajib diisi',
+            'nama.required'        => 'Nama wajib diisi',
             'email.required'       => 'Email wajib diisi',
             'email.email'          => 'Format email tidak valid',
             'tanggal.required'     => 'Tanggal wajib diisi',
