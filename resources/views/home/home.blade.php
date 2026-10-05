@@ -33,7 +33,7 @@
                 <p class="hero-sub mb-4">
                     Platform Indonesia terbaik untuk menghitung gaji, cuti, lembur,
                     dan Bonus & THR secara otomatis sesuai dengan UU Ketenagakerjaan.
-                    Sistem berbasis online, bisa diakses di mana saja.
+                    Sistem berbasis online, bisa diakses di mana saja
                 </p>
 
                 <!-- CTA -->
