@@ -18,7 +18,7 @@
                 <!-- Badge -->
                 <div class="mb-3">
                     <div class="hero-badge d-inline-flex">
-                        {{--  --}}
+                        {{-- --}}
                         Software HR terbaik di Indonesia
                     </div>
                 </div>
@@ -44,7 +44,7 @@
             <!-- RIGHT COLUMN -->
             <div class="col-lg-6 mt-5 mt-lg-0" style="display: flex; justify-content: center;">
 
-                <img src="{{ asset('assets/images/model/model-15.png') }}"
+                <img src="{{ asset('assets/images/model/model-26.png') }}"
                     alt="Software Payroll BIT"
                     class="img-fluid hero-image" style="display: flex; justify-content: center;">
             </div>

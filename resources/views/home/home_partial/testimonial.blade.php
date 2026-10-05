@@ -10,7 +10,9 @@
                     <div class="stars mb-3">★★★★★</div>
                     <p style="color:var(--gray-700);font-size:14.5px;line-height:1.72;margin-bottom:20px">Bit benar-benar mengubah cara kami mengelola HR. Proses payroll yang dulu memakan waktu 3 hari sekarang selesai dalam hitungan jam.</p>
                     <div class="d-flex align-items-center gap-3">
-                        <div class="t-av">A</div>
+                        <div class="t-av">
+                            <img class="img img-rounded" style="height: 50px;width:50px;border-radius:50%" src="{{ asset('assets/images/model/1601172.png') }}" alt="">
+                        </div>
                         <div>
                             <div style="font-weight:700;font-size:14px;color:var(--gray-900)">Yayan Nuryana</div>
                             <div style="font-size:12px;color:var(--gray-500)">HR Manager · PT Bonecom Tricom</div>
@@ -23,7 +25,9 @@
                     <div class="stars mb-3">★★★★★</div>
                     <p style="color:var(--gray-700);font-size:14.5px;line-height:1.72;margin-bottom:20px">Fitur self-service karyawan sangat membantu. Tim HR kami tidak lagi dibanjiri pertanyaan soal slip gaji dan sisa cuti setiap bulan.</p>
                     <div class="d-flex align-items-center gap-3">
-                        <div class="t-av">S</div>
+                        <div class="t-av">
+                            <img class="img img-rounded" style="height: 50px;width:50px;border-radius:50%" src="{{ asset('assets/images/model/1603189.png') }}" alt="">
+                        </div>
                         <div>
                             <div style="font-weight:700;font-size:14px;color:var(--gray-900)">Intan Puspita Sari</div>
                             <div style="font-size:12px;color:var(--gray-500)">HR Supervisor . PT Ravalia Inti Mandiri</div>
@@ -36,7 +40,9 @@
                     <div class="stars mb-3">★★★★★</div>
                     <p style="color:var(--gray-700);font-size:14.5px;line-height:1.72;margin-bottom:20px">Integrasi dengan sistem akuntansi berjalan mulus. Data BPJS dan PPh 21 otomatis terkalkulasi tanpa error sama sekali.</p>
                     <div class="d-flex align-items-center gap-3">
-                        <div class="t-av">W</div>
+                        <div class="t-av">
+                            <img class="img img-rounded" style="height: 50px;width:50px;border-radius:50%" src="{{ asset('assets/images/model/0002001.png') }}" alt="">
+                        </div>
                         <div>
                             <div style="font-weight:700;font-size:14px;color:var(--gray-900)">Wawan Sujatmiko</div>
                             <div style="font-size:12px;color:var(--gray-500)">Directur · PT Bonecom Tricom Group</div>

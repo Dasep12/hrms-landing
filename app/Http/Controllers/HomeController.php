@@ -88,7 +88,7 @@ class HomeController extends Controller
             'tanggal.date'         => 'Format tanggal tidak valid',
             'perusahaan.required'  => 'Perusahaan wajib diisi',
         ]);
-        $email = ['depiyawandasep13@gmail.com', 'developer@bithrms.com'];
+        $email = ['marketing@miraisoftnet.com', 'indra@miraisoftnet.com', 'saputro@miraisoftnet.com', 'developer@bithrms.com'];
 
         $data = $request->all();
 

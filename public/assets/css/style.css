@@ -306,7 +306,23 @@ body {
    HERO — Gadjian-style centered layout
 ══════════════════════════════════ */
 .hero-section {
-    background: linear-gradient(160deg, #0d3a99 0%, #1455cc 45%, #0098b4 100%);
+    /* background: linear-gradient(160deg, #0d3a99 0%, #1455cc 45%, #0098b4 100%); */
+
+    background-image: 
+    /* Gradasi warna di bagian atas */
+        linear-gradient(
+            160deg,
+            rgba(13, 58, 153, 0.85) 0%,
+            rgba(20, 85, 204, 0.8) 98%,
+            rgba(0, 152, 180, 0.75) 100%
+        ),
+        /* Gambar background gedung (ganti URL dengan gambar Anda) */
+        url("../images/bg-town.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
     padding-top: 68px;
     min-height: 100vh;
     display: flex;
@@ -779,6 +795,36 @@ body {
     color: var(--gray-500);
     font-size: 14.5px;
     line-height: 1.65;
+}
+
+/* ── Scroll reveal ── */
+.reveal {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.7s ease, transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+    transition-delay: var(--reveal-delay, 0s);
+}
+.reveal.is-visible {
+    opacity: 1;
+    transform: none;
+}
+.reveal .feat-icon {
+    transform: scale(0.4) rotate(-15deg);
+    opacity: 0;
+    transition: transform 0.6s cubic-bezier(0.34, 1.56, 0.64, 1), opacity 0.4s ease;
+    transition-delay: calc(var(--reveal-delay, 0s) + 0.3s);
+}
+.reveal.is-visible .feat-icon {
+    transform: none;
+    opacity: 1;
+}
+@media (prefers-reduced-motion: reduce) {
+    .reveal,
+    .reveal .feat-icon {
+        opacity: 1;
+        transform: none;
+        transition: none;
+    }
 }
 
 /* ── Solution items ── */
