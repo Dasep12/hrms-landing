@@ -33,13 +33,13 @@
     <meta property="og:description" content="@yield('meta_description')">
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{ url()->current() }}">
-    <meta property="og:image" content="{{ asset('images/mockup-hero.png') }}">
+    <meta property="og:image" content="{{ asset('assets/images/mockup-hero.png') }}">
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="@yield('title')">
     <meta name="twitter:description" content="@yield('meta_description')">
-    <meta name="twitter:image" content="{{ asset('images/mockup-hero.png') }}">
+    <meta name="twitter:image" content="{{ asset('assets/images/mockup-hero.png') }}">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
